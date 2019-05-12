@@ -1,0 +1,20 @@
+Package: qGEL
+Type: Package
+Title: Quick Generalized Embedding for Learning
+Version: 0.1.0
+Author: Eric Golinko
+Maintainer: The package maintainer <egolinko@gmail.com>
+Description: The purpose is the utilize a quick way to embed a data set, 
+  consisting of numerical values (sparse encoded is OK) into k embedded features. 
+  Optimized using simple matrix operations.    
+  Can be deployed in a supervised way using class label information, 
+  or as an unsupervised method.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports: 
+  dplyr,
+  caret,
+  Matrix,
+  utils
+RoxygenNote: 6.1.1
