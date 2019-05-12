@@ -8,7 +8,6 @@
 #' @import dplyr
 #' @import Matrix
 #' @import caret
-#' @import utils
 #' @export qgel
 
 if(getRversion() >= "2.15.1")  utils::globalVariables(c("Class"))
