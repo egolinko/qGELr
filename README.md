@@ -14,6 +14,7 @@ devtools::install_github('egolinko/qGELr', subdir = 'qGEL')
 
 ```{r}
 
+library(qgel)
 library(dplyr)
 
 data("iris")
